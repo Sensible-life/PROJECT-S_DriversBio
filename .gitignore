@@ -1,0 +1,29 @@
+# Node
+node_modules/
+.pnpm-store/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+build/
+.turbo/
+.expo/
+.next/
+.cache/
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

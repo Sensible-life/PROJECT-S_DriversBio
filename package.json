@@ -1,0 +1,13 @@
+{
+  "name": "driveai",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Voice-first study assistant for driving sessions.",
+  "type": "module",
+  "scripts": {
+    "dev:api": "node services/api/src/server.js",
+    "demo:mobile": "node apps/mobile/src/demo-session.js",
+    "test": "node scripts/run-tests.js",
+    "docs:check": "echo \"Docs scaffold is ready\""
+  }
+}
