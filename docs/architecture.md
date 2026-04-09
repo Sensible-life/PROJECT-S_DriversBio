@@ -2,16 +2,15 @@
 
 ## Direction
 
-The system is split into three product surfaces:
+The system is centered on one product surface:
 
-- `apps/mobile`: driving session runtime, audio IO, session controls
-- `apps/web`: source management, history review, admin-style study setup
-- `apps/extension`: lightweight capture surface for web content
+- `apps/mobile`: Flutter app, the main product surface for driving sessions, study-source management, and results review
 
 Supporting services:
 
 - `services/api`: source ingestion, session APIs, provider orchestration
 - `services/worker`: background quiz generation, evaluation jobs, analytics
+- `services/ai-agent-py`: LangChain Python + LangGraph service for ingestion, tutoring dialogue, notification quiz generation, and exam generation
 
 Shared packages:
 
@@ -37,4 +36,4 @@ Shared packages:
 - Short responses while driving
 - Provider-neutral AI layer
 - Study content and answer logs must be traceable to source material
-
+- Flutter-first client architecture for Android and iOS delivery

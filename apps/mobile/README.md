@@ -2,19 +2,25 @@
 
 ## Purpose
 
-Primary product surface for driving-time study sessions.
+Primary Flutter app for DriveAI.
 
-## Responsibilities
+## Current status
 
-- Start and stop voice study sessions
-- Route audio through phone speaker, headset, or car Bluetooth
-- Capture speech and send transcripts or audio payloads
-- Play short spoken feedback
-- Provide a minimal glanceable UI for parked use
+- Android and iOS Flutter project scaffolded in `apps/mobile`
+- Initial app shell reflects the driving study workflow
+- API integration is still the next step
+- Legacy web and extension prototypes have been removed
 
-## First implementation target
+## Run
 
-- One-button session start
-- "Next question" / "Repeat" voice commands
-- Session summary after driving
+```bash
+cd apps/mobile
+flutter run
+```
 
+## Near-term responsibilities
+
+- Session start and stop UI
+- Spoken quiz flow
+- Voice command handling
+- Session summary and weak-point review
