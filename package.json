@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev:api": "node services/api/src/server.js",
-    "demo:mobile": "node apps/mobile/src/demo-session.js",
+    "run:mobile": "cd apps/mobile && flutter run",
+    "analyze:mobile": "cd apps/mobile && flutter analyze",
     "test": "node scripts/run-tests.js",
     "docs:check": "echo \"Docs scaffold is ready\""
   }
